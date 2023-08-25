@@ -13,6 +13,8 @@ function aleatorio(){
 
 function reiniciar(){
     abecedario1=abecedario;
+    var a=document.getElementById("letra");
+    a.value=""
 }
 
 function eliminar(array, elemento) {
